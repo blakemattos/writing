@@ -35,13 +35,11 @@
     <link rel="stylesheet" href="{{ '/css/normalize.css' | url }}">
 <link rel="stylesheet" href="{{ '/css/fluidtype.css' | url }}">
 
-
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-diff.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
-
 
 
 
@@ -67,7 +65,12 @@
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
       {{ content | safe }}
+
+<div class="bluestreak"></div>
+
     </main>
+
+
 
     <footer>©2023 blake mattos.</footer>
 

@@ -1,21 +1,21 @@
 {
-  "title": "🧪 The Writing Lab",
-  "url": "https://example.com/",
+  "title": "blakemattos.com",
+  "url": "https://blakemattos.com/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "I build and lead best-in-class, high-performance Design Teams centered around technical products and scalable businesses. Sometimes I write things down.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Some of my writing.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://writing.blakemattos.com/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://writing.blakemattos.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
+    "name": "Blake Mattos",
     "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "url": "https://writing.blakemattos.com"
   }
 }

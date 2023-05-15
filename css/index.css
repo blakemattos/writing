@@ -69,10 +69,10 @@
     color: var(--text-color-link);
   }
 
-  a[href]:visited {
+/*  a[href]:visited {
     color: var(--text-color-link-visited);
   }
-
+*/
   main {
     padding: 1rem;
   }
@@ -384,4 +384,8 @@
     background-size: cover;
     /*      To offset margin 11ty applies so bluestreak can be added to index page */
     margin-left: -16px;
+  }
+
+  header {
+    visibility: hidden;
   }
